@@ -97,3 +97,4 @@ view-job-filters:2.3
 windows-slaves:1.8
 swarm:3.31
 slave-status:1.6
+configuration-as-code:1414.v878271fc496f
