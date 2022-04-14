@@ -1,7 +1,7 @@
 jenkins:
-    numExecutors: 0
-    globalNodeProperties:
-        - envVars:
-            env:
-             - key: NODE_NAME
-             value: jenkins-master
+  numExecutors: 0
+  globalNodeProperties:
+  - envVars:
+      env:
+      - key: NODE_NAME
+        value: jenkins-master
