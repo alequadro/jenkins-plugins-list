@@ -96,3 +96,4 @@ trilead-api:1.0.13
 view-job-filters:2.3
 windows-slaves:1.8
 swarm:3.31
+slave-status:1.6
