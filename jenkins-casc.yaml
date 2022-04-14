@@ -6,7 +6,9 @@ jenkins:
     Config is now mostly handled by the 'Jenkins Configuration as Code' (JCasC) plugin.
     JCasC config can be found in the jenkins-casc.yaml file in the $JENKINS_HOME folder.
   numExecutors: 0
+  mode: NORMAL
   globalNodeProperties:
-    env:
-      - key: NODE_NAME
-        value: jenkins-master
+    - envVars:
+        env:
+          - key: NODE_NAME
+            value: jenkins-master
